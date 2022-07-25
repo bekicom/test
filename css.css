@@ -48,7 +48,7 @@ body{
     align-items: flex-start;
     justify-content: space-between;
     flex-direction: column;
-    background-color: purple;
+    margin-right: 90px;
 }
 
 .sec1_box p{
