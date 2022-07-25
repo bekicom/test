@@ -1,3 +1,17 @@
+@font-face {
+    font-family: 'Abhaya Libre SemiBold';
+    src: url(./fonts/AbhayaLibre-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: 'Sree Krushnadevaraya';
+    src: url(./fonts/SreeKrushnadevaraya-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Heebo';
+    src: url(./fonts/Heebo-Regular.ttf);
+}
 *{
     padding: 0;
     margin: 0;
@@ -38,6 +52,7 @@ body{
 }
 
 .sec1_box p{
+    font-family: 'Abhaya Libre SemiBold';
     font-style: normal;
 font-weight: 600;
 font-size: 88px;
@@ -49,6 +64,7 @@ color: #F0E5D5;
 }
 
 .sec1_box b{
+    font-family: 'Sree Krushnadevaraya';
     font-style: normal;
 font-weight: 400;
 font-size: 48px;
@@ -60,6 +76,7 @@ color: #D69536;
 }
 
 .sec1_box span{
+    font-family: 'Sree Krushnadevaraya';
     font-style: normal;
 font-weight: 400;
 font-size: 48px;
@@ -71,6 +88,7 @@ color: white;
 }
 
 .sec1_box strong{
+    font-family: 'Sree Krushnadevaraya';
     font-style: normal;
 font-weight: 400;
 font-size: 24px;
@@ -87,7 +105,7 @@ color: #F0E5D5;
     background: #D69536;
 backdrop-filter: blur(4px);
 /* Note: backdrop-filter has minimal browser support */
-
+font-family: 'Heebo';
 border-radius: 26px;
 width: 287px;
 height: 52px;
