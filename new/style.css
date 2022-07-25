@@ -2,11 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 body{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     background-color: grey;
 }
 
@@ -21,22 +22,26 @@ body{
 
 .section_3{
     width: 100%;
-    height: auto;
+    height: 217px;
     background: linear-gradient(0deg, rgba(40, 17, 10, 0.5), rgba(40, 17, 10, 0.5)), url(image.png);
     display: flex;
     align-items: center;
     flex-direction: row;
+    margin-top: 50px;
 }
 
 
 .sec_3left img{
     width: 528px;
+    margin-top: -60px;
 }
 
 
+
 .sec_3right p{
+    width: 796px;
     font-weight: 400;
-    font-size: 72px;
+    font-size: 62px;
     line-height: 36px;
     
 }
@@ -47,3 +52,87 @@ body{
     padding-left: 56px;
 }
 
+
+
+
+
+
+.section_4{
+    width: 100%;
+    height: auto;
+    display:flex;
+    align-items: flex-end;
+    flex-direction: row;
+}
+
+
+.sec_4right{
+    padding-left: 394px;
+}
+
+
+.sec_4right p{
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 36px;
+    margin: 35px 0;
+    color: #77472D;
+
+}
+
+.sec_4right span{
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 36px;
+    /* or 100% */
+    margin: 15px 0;
+
+    display: flex;
+    align-items: center;
+    
+    color: #77472D;
+    
+}
+
+
+.btn button{
+    width: 257px;
+    height: 52px;
+    border: none;
+    background: #D69536;
+    backdrop-filter: blur(4px);
+    /* Note: backdrop-filter has minimal browser support */
+    border-radius: 26px;
+
+}
+
+
+
+.btn{
+    padding-top: 68px;
+}
+
+.sec_4left hr{
+    height: 25px;
+    background-color: rgb(255, 145, 0);
+    margin-top: -5px;
+    border-radius:  8px;
+}
+
+
+
+.section_5{
+    height: 500px;
+    display: flex;
+    align-items:flex-end;
+}
+
+.ota{
+    width: 1440px;
+    height: 217px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(40, 17, 10, 0.5)), url(image.png);
+}
