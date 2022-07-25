@@ -87,6 +87,8 @@ body {
     height: 373px;
 }
 
+
+
 .new {
     max-width: 1440px;
     width: 100%;
@@ -96,11 +98,12 @@ body {
 
 .bottom {
     width: 100%;
-
     display: flex;
     align-items: center;
     justify-content: space-between;
+
 }
+
 
 .section_2 {
     display: flex;
