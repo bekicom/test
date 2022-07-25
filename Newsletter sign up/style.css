@@ -66,6 +66,10 @@ nav a{
   flex-direction: column;
   align-items: center;
 }
+.icons img{
+  width: 251.06px;
+  height: 259.35px;
+}
 
 .column{
   display: flex;
@@ -80,6 +84,10 @@ nav a{
   height: 116px;
   background: #FFFFFF;
   margin: 47px 0;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 132px;  
+  color: #28110A;
 }
 
 .inputs{
