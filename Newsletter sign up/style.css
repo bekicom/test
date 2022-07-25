@@ -1,0 +1,155 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+button{
+  border: none;
+  outline: none;
+}
+input{
+text-align: center;
+font-size: 48px;
+font-weight: 400;
+outline: none;
+border:none;
+}
+input::placeholder{
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 99px;
+  color: rgba(0, 0, 0, 0.5);
+}
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.newseletter{
+  max-width: 1440px;
+  width: 100%;
+  height: auto;
+  background-color:#F0E5D5;
+}
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2px 30px 2px 2px;
+}
+nav a{
+  margin: 0 15px;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 36px;
+  color: #4A2513;
+}
+.section1{
+  background-image: url(../img/image\ 4.pnggit );
+  height: 863px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section1 h1{
+  font-weight: 600;
+  font-size: 128px;
+  line-height: 151px;
+  color: #F0E5D5;
+}
+
+.section_2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.icons img{
+  width: 251.06px;
+  height: 259.35px;
+}
+
+.column{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 1316px;
+  height: 735px;
+  background: #C8BAA5;
+}
+.section_2>button{
+  width: 1135px;
+  height: 116px;
+  background: #FFFFFF;
+  margin: 47px 0;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 132px;  
+  color: #28110A;
+}
+
+.inputs{
+  display: flex;
+  align-items: center;
+}
+.inputs input{
+  width: 540px;
+  height: 143px;
+  background: #FFFFFF;
+  margin: 26px;
+}
+.column>input{
+  width: 1132px;
+  height: 143px;
+  background: #FFFFFF;
+}
+
+.column>button{
+  margin-top: 70px;
+  background: #2E2B2C;
+  border-radius: 57.5px;
+  padding: 0px 80px;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 99px;
+  color: #FFFFFF;
+}
+.column>span{
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 132px;  
+  color: #28110A;
+}
+
+.button button{
+  margin-top: 72px;
+  width: 1132px;
+  height: 105px;
+  background: #C8BAA5;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 76px;
+  color: #3E2922;
+}
+.location{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width:100%;
+  padding: 78px 154px 0;
+}
+.geo{
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  margin: 24px 0;
+}
+.geo p{
+  margin-left: 50px;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 59px;
+  color: #3E2922;
+}
