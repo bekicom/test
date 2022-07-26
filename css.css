@@ -12,27 +12,29 @@
     font-family: 'Heebo';
     src: url(./fonts/Heebo-Regular.ttf);
 }
-*{
+
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: sans-serif;
 }
 
-body{
+body {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.wrapper{
+.wrapper {
     max-width: 1440px;
     width: 1440px;
     height: auto;
-    flex-direction: column;
 }
 
-.section1{
+/* ======= section1 start ============= */
+
+.section1 {
     width: 100%;
     height: 908px;
     background-image: url(./img/Rectangle\ 3.png);
@@ -42,7 +44,7 @@ body{
     background-color: grey;
 }
 
-.sec1_box{
+.sec1_box {
     width: 959px;
     height: 399px;
     display: flex;
@@ -52,77 +54,326 @@ body{
     margin-right: 90px;
 }
 
-.sec1_box p{
+.sec1_box p {
     font-family: 'Abhaya Libre SemiBold';
     font-style: normal;
-font-weight: 600;
-font-size: 88px;
-line-height: 104px;
-/* identical to box height */
-
-
-color: #F0E5D5;
+    font-weight: 600;
+    font-size: 88px;
+    line-height: 104px;
+    color: #F0E5D5;
 }
 
-.sec1_box b{
+.sec1_box b {
     font-family: 'Sree Krushnadevaraya';
     font-style: normal;
-font-weight: 400;
-font-size: 48px;
-line-height: 99px;
-/* identical to box height */
-
-
-color: #D69536;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 99px;
+    color: #D69536;
 }
 
-.sec1_box span{
+.sec1_box span {
     font-family: 'Sree Krushnadevaraya';
     font-style: normal;
-font-weight: 400;
-font-size: 48px;
-line-height: 99px;
-/* identical to box height */
-
-
-color: white;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 99px;
+    color: white;
 }
 
-.sec1_box strong{
+.sec1_box strong {
     font-family: 'Sree Krushnadevaraya';
     font-style: normal;
-font-weight: 400;
-font-size: 24px;
-line-height: 36px;
-/* or 150% */
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
 
-display: flex;
-align-items: center;
-
-color: #F0E5D5;
+    color: #F0E5D5;
 }
 
-.sec1_box button{
+.sec1_box button {
     background: #D69536;
-backdrop-filter: blur(4px);
-/* Note: backdrop-filter has minimal browser support */
-font-family: 'Heebo';
-border-radius: 26px;
-width: 287px;
-height: 52px;
-display: flex;
-align-items: center;
-justify-content: center;
-font-weight: 400;
-font-size: 32px;
-line-height: 47px;
+    backdrop-filter: blur(4px);
+    font-family: 'Heebo';
+    border-radius: 26px;
+    width: 287px;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 47px;
 
-color: #FFFFFF;
-border: none;
+    color: #FFFFFF;
+    border: none;
 }
 
-.section2{
+/* ======= section1 end ============= */
+
+/* ======= section2 start ============= */
+
+.section2 {
     width: 100%;
-    height: 1840px;
-    
+    height: 980px;
+    background-color: grey;
+    display: flex;
+    background-image: url(./img/Rectangle\ 1.png);
 }
+
+.sec2_left {
+    margin-top: 120px;
+    background-color: #F0E5D5;
+    width: 720px;
+    height: 860px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sec2_l_b {
+    width: 509px;
+    height: 360px;
+}
+
+.sec2_l_b p {
+    font-family: 'Sree Krushnadevaraya';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 15px;
+
+    color: #28110A;
+}
+
+.sec2_l_b span {
+    padding-top: 65px;
+    font-family: 'Sree Krushnadevaraya';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    /* or 150% */
+
+    display: flex;
+    align-items: center;
+
+    color: #77472D;
+
+}
+
+.sec2_l_b button {
+    margin-top: 53px;
+    background: #D69536;
+    backdrop-filter: blur(4px);
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 47px;
+    border: none;
+    color: #FFFFFF;
+    border-radius: 26px;
+    width: 218px;
+    height: 45px;
+}
+
+/* ======= section2 end ============= */
+
+/* ======= section3 start ============= */
+
+.section3 {
+    width: 100%;
+    height: auto;
+}
+
+.sec3_top {
+    width: 100%;
+    height: 217px;
+    display: flex;
+}
+
+.sec3_t_img {
+    width: 528px;
+    height: 217px;
+}
+
+.sec3_t_p {
+    width: 912px;
+    height: 217px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3D2822;
+}
+
+.sec3_t_p p {
+    font-family: 'Sree Krushnadevaraya';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 36px;
+    /* or 50% */
+
+    display: flex;
+    align-items: center;
+
+    color: #F0E5D5;
+}
+
+.sec3_bottom {
+    width: 100%;
+    height: 541px;
+    display: flex;
+}
+
+.sec3_b_l {
+    width: 50%;
+    height: 100%;
+    background: #D69536;
+}
+
+.sec3_b_r {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.sec3_r_box {
+    width: 257px;
+    height: 250px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-right: 61px;
+}
+
+.sec3_r_box p {
+    font-family: 'Sree Krushnadevaraya';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 36px;
+    /* or 50% */
+
+    display: flex;
+    align-items: center;
+    color: #77472D;
+}
+
+.sec3_r_box span {
+    font-family: 'Sree Krushnadevaraya';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    /* line-height: 36px; */
+    /* or 100% */
+
+    display: flex;
+    align-items: center;
+
+    color: #77472D;
+}
+
+.sec3_r_box button {
+    background: #D69536;
+    backdrop-filter: blur(4px);
+    border-radius: 26px;
+    width: 257px;
+    height: 52px;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 47px;
+    border: none;
+    color: #FFFFFF;
+}
+
+.sec3_mini {
+    width: 257px;
+    height: 162px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.sec3_mini span {
+    margin-bottom: 30px;
+}
+
+.sec3_b_b {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sec3_button {
+    margin-top: 50px;
+    margin-right: 150px;
+    width: 880px;
+    height: 39px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sec3_button button {
+    border: none;
+    background: none;
+}
+
+/* ======= section3 end ============= */
+
+/* ======= section4 start ============= */
+
+.section4 {
+    margin-top: 50px;
+    width: 100%;
+    height: auto;
+}
+
+.sec4_box {
+    width: 100%;
+    height: 546px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-left: 156px;
+}
+
+.sec4_b_top {
+    width: 88%;
+    height: 413px;
+    background: #ABC5B8;
+}
+
+.sec4_b_bottom {
+    width: 558px;
+    height: 32px;
+}
+
+.sec4_b_bottom p {
+    font-family: 'Sree Krushnadevaraya';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    /* or 150% */
+
+    display: flex;
+    align-items: center;
+
+    color: #77472D;
+}
+
+/* ======= section4 end ============= */
