@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
+    text-decoration: none;
 }
 
 body {
@@ -11,6 +12,22 @@ body {
     justify-content: center;
     background-color: grey;
 }
+
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2px 30px 2px 2px;
+  }
+  nav a{
+    margin: 0 15px;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 36px;
+    color: #4A2513;
+  }
+
 
 .section_1 {
     display: flex;
