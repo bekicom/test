@@ -1,0 +1,180 @@
+@font-face {
+    font-family: sreeKru;
+    src: url(../fonts/SreeKrushnadevaraya-Regular.ttf);
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sreekru;
+}
+.about{
+    max-width: 1440px;
+    width: 100%;
+    height: auto;
+}
+.section1{
+    width: 100%;
+    height: 845px;
+    background-image: url(../img/Rectangle\ b.png);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.kontener1{
+    width: 720px;
+    height: 646px;
+    background: #F0E5D5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.boocs{
+    width: 509px;
+    height: 378px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.boocs span{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    /* or 150% */
+
+    display: flex;
+    align-items: center;
+
+    color: #77472D;
+}
+.boocs p{
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 99px;
+
+    color: #28110A;
+
+}
+.boocs button{
+    width: 218px;
+    height: 42px;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 47px;
+    /* margin-top: 42px; */
+    color: #FFFFFF;
+    text-align: center;
+    background: #D69536;
+    backdrop-filter: blur(4px);
+    border: none;
+    border-radius: 26px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 10px;
+    
+}
+
+
+
+/* ======== sec_2 ======= */
+
+
+
+.section2{
+    width: 100%;
+    height: 859px;
+}
+.section2 img{
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ========= sec_3 ========== */
+
+
+
+.section3{
+    padding-top: 112px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    background-image: url(../img/Rectangle\ b.png);
+    opacity: 100%;
+}
+
+.left_sec3{
+    width: 456px;
+    height: 859px;
+}
+.right_sec3{
+    width: 796px;
+    height: 547px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    
+}
+#pi1{
+    width: 796px;
+    height: 154px;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 56px;
+    /* or 50% */
+    
+    display: flex;
+    align-items: center;
+    /* background-color: red; */
+    color: #F0E5D5;
+}
+.right_sec3 p{
+    width: 531px;
+    height: 33px;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 36px;
+    /* or 95% */
+    margin-top: 107px;
+    display: flex;
+    align-items: center;
+
+    color: #F0E5D5;
+
+}
+.right_sec3 span{
+    width: 657px;
+    height: 221px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    /* or 150% */
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+
+    color: #F0E5D5;
+
+}
+
+
+
+
