@@ -1,0 +1,101 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #28110A;
+}
+.foot_div {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.foot_logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 0 40px 0;
+}
+.foot_days {
+    width: 350px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.foot_left {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    color: #D6C5AC;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+}
+.foot_right {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    flex-direction: column;
+    color: #D6C5AC;
+    font-size: 24px;
+    line-height: 36px;
+}
+.foot_right p{
+    text-align: end;
+}
+.foot_link {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.foot_links {
+    width: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+
+.foot_gmail {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #D6C5AC;
+    padding: 50px 0 70px 0;
+}
+.footer_comp {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    color: #D6C5AC;
+}

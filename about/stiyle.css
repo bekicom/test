@@ -10,6 +10,14 @@
     box-sizing: border-box;
     font-family: sreekru;
 }
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 100vh;
+}
+
 .about{
     max-width: 1440px;
     width: 100%;
